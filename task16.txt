@@ -1,0 +1,2 @@
+NAME        TYPE     DATA   AGE
+my-secret   Opaque   2      43s

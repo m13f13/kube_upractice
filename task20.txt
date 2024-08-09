@@ -1,0 +1,3 @@
+alonso@alonso-vm:~/uacademy/vscode/git/kuber/practice/practice_configmap$ kubectl apply -f my-deployment.yaml -n a-taniqulov
+deployment.apps/flaskapp-teacher configured
+

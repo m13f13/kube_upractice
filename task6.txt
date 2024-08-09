@@ -1,0 +1,5 @@
+NAMESPACE            NAME                                READY   STATUS    RESTARTS   AGE
+a-taniqulov          nginx-named-port-758cc54658-nrnx4   1/1     Running   0          15m
+practice-doston      nginx-named-port-97785d7bd-sfjbw    1/1     Running   0          12m
+practice-g-ravshan   nginx-named-port-8884996f7-4fzgs    1/1     Running   0          28m
+x-namozov            nginx-named-port-5c77677f7f-68zft   1/1     Running   0          21m

@@ -1,0 +1,33 @@
+NAME                            READY   STATUS    RESTARTS   AGE
+nginx                           1/1     Running   0          14m
+nginx-deploy-5ff6b495cb-vtjs2   1/1     Running   0          6m7s
+nginx-deploy-5ff6b495cb-zzc67   1/1     Running   0          6m7s
+NAME                  STATUS   AGE
+a-adxamov             Active   4d23h
+a-maxmudov            Active   2d11h
+a-taniqulov           Active   2d
+a-yusupov             Active   5d1h
+d-nurmatov            Active   23h
+default               Active   5d1h
+f-nabiyev             Active   4d6h
+ingress-nginx         Active   5d1h
+kube-node-lease       Active   5d1h
+kube-public           Active   5d1h
+kube-system           Active   5d1h
+m-fayziev             Active   3d3h
+practice-a-maxmudov   Active   4m1s
+practice-d-xolmatov   Active   23m
+practice-doston       Active   26m
+practice-fazliddin    Active   21m
+practice-g-ravshan    Active   19m
+practise-zvakhobov    Active   11m
+r-kodirov             Active   140m
+s-khomidov            Active   140m
+s-madatov             Active   4d17h
+t-muxtorov            Active   2d
+x-baxromov            Active   4d23h
+x-namozov             Active   2d8h
+z-vakhobov            Active   2d
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+nginx-deploy   2/2     2            2           7m13s
+deployment "nginx-deploy" successfully rolled out

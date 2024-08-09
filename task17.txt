@@ -1,0 +1,4 @@
+NAME               READY   UP-TO-DATE   AVAILABLE   AGE
+flaskapp-teacher   1/1     1            1           100m
+nginx-deploy       4/4     4            4           153m
+nginx-named-port   1/1     1            1           138m

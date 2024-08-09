@@ -1,0 +1,4 @@
+NAME               DATA   AGE
+kube-root-ca.crt   1      2d2h
+my-config          6      2d2h
+my-configmap       3      2m

@@ -1,0 +1,2 @@
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE   CONTAINERS   IMAGES       SELECTOR
+nginx-deploy   4/4     4            4           11m   nginx        nginx:1.22   app=nginx

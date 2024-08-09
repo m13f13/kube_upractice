@@ -1,0 +1,42 @@
+Name:                   nginx-named-port
+Namespace:              a-taniqulov
+CreationTimestamp:      Wed, 07 Aug 2024 19:46:25 +0500
+Labels:                 application=v1
+Annotations:            deployment.kubernetes.io/revision: 2
+Selector:               app=nginx
+Replicas:               1 desired | 1 updated | 1 total | 1 available | 0 unavailable
+StrategyType:           RollingUpdate
+MinReadySeconds:        0
+RollingUpdateStrategy:  25% max unavailable, 25% max surge
+Pod Template:
+  Labels:  app=nginx
+           application=v1
+  Containers:
+   nginx:
+    Image:         nginx:1.23
+    Port:          80/TCP
+    Host Port:     0/TCP
+    Environment:   <none>
+    Mounts:        <none>
+  Volumes:         <none>
+  Node-Selectors:  <none>
+  Tolerations:     <none>
+Conditions:
+  Type           Status  Reason
+  ----           ------  ------
+  Available      True    MinimumReplicasAvailable
+  Progressing    True    NewReplicaSetAvailable
+OldReplicaSets:  nginx-named-port-758cc54658 (0/0 replicas created)
+NewReplicaSet:   nginx-named-port-f956bb7c6 (1/1 replicas created)
+Events:
+  Type    Reason             Age   From                   Message
+  ----    ------             ----  ----                   -------
+  Normal  ScalingReplicaSet  31m   deployment-controller  Scaled up replica set nginx-named-port-758cc54658 to 1
+  Normal  ScalingReplicaSet  94s   deployment-controller  Scaled up replica set nginx-named-port-f956bb7c6 to 1
+  Normal  ScalingReplicaSet  92s   deployment-controller  Scaled down replica set nginx-named-port-758cc54658 to 0 from 1
+NAME                               READY   STATUS    RESTARTS   AGE
+nginx-deploy-5ff6b495cb-pg4zg      1/1     Running   0          38m
+nginx-deploy-5ff6b495cb-tnd9c      1/1     Running   0          38m
+nginx-deploy-5ff6b495cb-vtjs2      1/1     Running   0          47m
+nginx-deploy-5ff6b495cb-zzc67      1/1     Running   0          47m
+nginx-named-port-f956bb7c6-v72pn   1/1     Running   0          2m56s

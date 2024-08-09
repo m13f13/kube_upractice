@@ -1,0 +1,10 @@
+NAME               READY   UP-TO-DATE   AVAILABLE   AGE   CONTAINERS   IMAGES       SELECTOR
+nginx-deploy       4/4     4            4           15m   nginx        nginx:1.22   app=nginx
+nginx-named-port   1/1     1            1           61s   nginx        nginx:1.18   app=nginx
+NAME                                READY   STATUS    RESTARTS   AGE
+nginx                               1/1     Running   0          24m
+nginx-deploy-5ff6b495cb-pg4zg       1/1     Running   0          6m45s
+nginx-deploy-5ff6b495cb-tnd9c       1/1     Running   0          6m45s
+nginx-deploy-5ff6b495cb-vtjs2       1/1     Running   0          16m
+nginx-deploy-5ff6b495cb-zzc67       1/1     Running   0          16m
+nginx-named-port-758cc54658-nrnx4   1/1     Running   0          79s
